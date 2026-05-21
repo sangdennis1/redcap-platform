@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="2025 eConsent Sample w/embedding" AsOfDateTime="2025-05-08T13:08:43" CreationDateTime="2025-05-08T13:08:43" SourceSystem="REDCap" SourceSystemVersion="15.3.2">
+<Study OID="Project.2025EConsentSampleWembedding">
+<GlobalVariables>
+	<StudyName>2025 eConsent Sample w/embedding</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "2025 eConsent Sample w/embedding".</StudyDescription>
+	<ProtocolName>2025 eConsent Sample w/embedding</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>[first_name] [last_name]</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>0</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>0</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>2</redcap:taskCompleteStatus>
+	<redcap:DataResolutionWorkflowEnabled>1</redcap:DataResolutionWorkflowEnabled>
+	<redcap:FieldCommentLogOptionEditDelete>1</redcap:FieldCommentLogOptionEditDelete>
+	<redcap:DataResolutionWorkflowHideClosedQueries>0</redcap:DataResolutionWorkflowHideClosedQueries>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText>REDCap Secure Messaging</redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:OdmAttachmentGroup>
+		<redcap:OdmAttachment MimeType="image/png" DocName="redcap-logo.png" ID="fdf2dbfeaadddecd9e58c3d8d5236f4d4735b131"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAJYAAAAtCAMAAAB70mJmAAAAB3RJTUUH4wcTDCMBbDxZfgAAAAlwSFlzAAAK8AAACvABQqw0mAAAAwBQTFRFAAAAgAAAAIAAgIAAAACAgACAAICAwMDAwNzApsrwAAAAAgAAAgICBwECBAQEBgYGCAgICgoKDAwMDg4OEgQEHQcJEBAQEhISFBQUFhYWGBgYGhoaHBwcHh4eJggKICAgIiIiJSUlKioqLCwsLi4uMDAwMjIyNTU1ODg4Ojo6PT09TRMZWxMZaBcedTxBQEBAQkJCRUVFRkZGSEhISkpKTU1NXEpMUFBQUlJSVFRUVlZWWFhYWlpaXFxcXl5ealFTYGBgYmJiZmZmaGhoampqbGxsbm5ucXFxdHR0dnZ2eHh4enp6fHx8fn5+ix0lhyErlCQvpSQuriUwrCk2tSYxtyk0uCgzuio0uiw1vCs1vSw2uS84vS04uTM9vTI8vTU+uzhCvjpDvjxGrlVev0VOwC45xC47wDI8xDI9wDtEwDxFyzFAzjRC0TNC0TVD1DZF0jhF1DhG0TxK1D9N2TpK2jxK2jxM3DxLwUJOwk1WxUhQyE5XzE5YxVNbyVdf1EBO3UVT1lBcyl1k3VdjzmVtzGhw0Gxz2mhx4FRi4GBs42Vx42545G141nuB4XiCgICAgoKChYWFiYmJjIyMjo6OkZGRlZWVmZmZnJycnp6eoKCgoqKipKSkpqamqamprKysrq6usLCwsrKytLS0tra2uLi4urq6vLy8vr6+14mP2IaM2ImP3Y6U25ec3pmd35ug2ri854GL4KGl4aOo4qWp7qGo7Kas46yw5bCz57q97LK37rO56bu+8LW76r7BwMDAwsLCxMTExsbGyMjIysrKzMzMzs7O0NDQ0tLS1NTU1tbW2dnZ3Nzc3t7e68TH79DS8MzP8M/S9tbZ8tja89ze+Nrd6d/g4ODg4uLi5OTk5ubm6Ojo6urq7Ozs7u7u9uPl+ebn+ufp+e3u+u7w/O/w8PDw8vLy9PT09vb2+/Pz+/P0/PLz/PP0/Pb2/ff4+Pj4+vr6/fr6/vv8/Pz8/v39/v7+//vwoKCkgICA/wAAAP8A//8AAAD//wD/AP//////m/uwZgAAAQB0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AFP3ByUAAAhMSURBVHjazVhZWGLZEb5vvhBUSNoWNQpuSJZWW6NjK1Fxt81qt0CbfU9mM6Nt9i+Z7JPMKApoKyra2pqZSTrJJJksk3yKCi1gtkkCqJBkJiBZOpCozzen6twrcHHy+QZl255Tp+49/6n6q+oAw8bL0TGbHsLET1787o9+ePfucz/780n6wLr/wpOfHXzPR27cePf7P//rdIH1jxc+o9drtQM6vU6nvfbe56NpAevvdz+uR0BavU6r1V3/9B/SAtZP36fVawks7QD5M6AduPaddID10sfQSwSPVqeHP9dvvHySSt5TWHd1RAix4J+eeEt3vf+5lGYjwrr/FWQ6OGtAN6gb0Omu9X81lagorJe+AMzCIBJwevLf9f4P/iYFaI6jngWjadkXpd56nMDSIibyQ8g10N//rud52/CeN1H2wkQbomO3y+l0unzhM/Y42tuYnzKZpywrjv3zwrL3jk1PGwwuyq2vkSBSapHfQUDV//Y39rqp7WplaaLUbBPtNB2XFCsUiuIyVb3Zm7hDeFVdXnRRkp0tyclXlAfPB8s/MdPW2WkwGSmsZzCIAIrwfXDgHW95/WsZhpH24ikXLjKJIt8k2nGBkpG0emLvD94qFcUvntNdjqvOruXljk01hfW9gUEdllNS5T/04cE3vJq+LKsbFudyBAAUdqLtY5Kk1s6/frczK3HJfT5YW2Pu5r7uHncjhfXsg48ODQ09+vCD8PehT725pjybesBNysTsBTISFxRzIVQUVIC2B9Zz5CVEI5fQvcV1nL98jRwqZfukabJTJWXs54Pl6t3qXt/ouq1BWH/79ujo6MjIyCj5GX7ksV9AFNoR2AQBMC0FD+0I3tABy2PcxN5diDA6cHZYj5O8die3HMrwnAsVG7Fcnffum7qWANa/f/zF0ZGbNwmom6PDQw899TKeuAZerSEjMwAsEYZBQ5QiAz+LruSC+QUfTGaRVgVLSel55HeuLVoslkV7LAUiXvvqwpzFspDhjbInB/N9RuO4NQCw/vgNQERwkd/hhx/7C92oF97dSkYmiEipINFYNVFmTsbmE2KwnyLe9apgdHFeCCo03VBRXCDLycmRyStNVDelqS6VF+QSXW5hmfoOexJxOxzeyAmB9a8nwFGjoxjDRz75c+4l4A7GSEbGTDIoPxBscgVSwhSbeyrBvibKHk8B1bIMESGsbXl8EtTjOQsSM0Ozx9kSWD8ZHj5FNfSJD/yJLjhLgMQO3g/KkGAT4I9kKtY4I90QujIfG2yBDUqcQlTsch6Tq2xs72qtgHNmG4+ILp9LlmyaI1ltfh7Wbz/30a9/6ybwaoQQ661vouw8bBTTw7OsAfZT7vuDoVAw4Pd5KWVqgUq34nZFCsrtrLsCNmhJvkfOVpu33P7DSMh9BS2AX8DI7FrTysaasRSU0jkO1v2ntY+/yP7zlz/45pe/9M63vY6p9d2z2e6MgcPFl1zE4pivUCKxGABesOGDVcifuGsGlrfCdXY7D4yTmBUvC2DRALSAZ1S7VNsEjlDQ2DP//dXTv8PRX3///de8isR8v0sqRfpKWxwYnc7E+OdtoxZ4LbPG7TUPWxRtsDasYtv/B5W/FSwaIV5gW+ujahf4S2Tngvif+7z5Dlg/cGDDGlR+dZXG+VAjaD33QBtQAsLluM2wvJEgrgNzGNcrgjqYqZOcBjELd+TZCWozT/lT2aSHOOwBZ83w2kAzgqlrULcQabrSjYfbK4PStBZ7ODqGlN9jbQCP2TwTkWNOrRBzx+sgHI3CEZoD3PItKVcpE2GtgrU6wG4CsSr5XD1AghoEl9XdEhqyU9nH0l4XYbcxuyxngJp7oJD2byy9PSQTAzBv5ZMcadCUBGsRrJuDbKQNmHUrYT+jYA+XAlwYxyCKZoKslDOnh44XbxN3E1H0TPIdYh9NDzkLC8BSJ8GaYTjsXmjO5Vzl8V7G8i3YxC5PbJQR9GkWqS5BJLR8S/BAANHKao3kmXksxcT/u6fcJ3KMBbInCZYZjNoAO7BcPM6F69JZQcFAxxplZAaJXndKkUyNP/EBE3hINY+emcZSTAZOeEjFvcXfCLPZJFjjPBPZdag9Mnp3cwG5GasA1mpBfKM8NGMIc+/gOdAv0u7EB6D85t8+wrERyh/k1DbenhY5GsCmot0kWHhX6YJ6FmoHLmqwnt/DVjbrJuJyunZ27tmBolagbcn27u6u22GbViJppJO0AdzBXGQqF92hI/Y4fODMmGfD4PNiF02cMb6VZ6Bh/g7ZM+rG49eySbCaQN+NZXZRBuYrMNySIU+VRMrKSosV8kJI/hmgn0R5SaVSyi9wXaCHb+cT9D4rVWn6DOMdDaXSWvryHCPEMMBCgZaBj5a4JOhbWJrEnnVxMRkW3LBEvdjMDqCIi9TAD5uEEQgUYnOWUCvt5esPGzLn8g1LhCWhi9Kcya3p7GgwsFAJ826zVCnOy2Qyc2V46xS3B5NghSqY2M1uFhNrgYzWxEIA0MwnErQiaVFzwr3YXZ8fbwA8auAPYj1CngEPp+A4pj7+w4Kkkz9ZHKxAW1VVVTXXwgM1ZFLVCzlXXSUQiIQlpr1c39I3vcEmyuHK1eoi8LM4W1aCn+A8Y0opcV1W/kG0izzVCLpJyv3ZhiIxI5JdNvEVLB5WdM/j8Xj566yPTDzQZ8IeocByMDb17gfP+jYs4nXYFq3W5Y0tpxf5GnbbVqxL6wTOPrwa0gMuJzlz7NGBY826tOWNvYZhUymQ+7kLZyykFhZ8IJAtpR2sutMylE6wjqDGFmac8U1aSmEFoTuQe3aawfJBvymypRssTyPpaA07Z6yklvLhUCh01jd2KYb1ivI/SVSR1lqwqawAAAAASUVORK5CYII=]]></redcap:OdmAttachment>
+	</redcap:OdmAttachmentGroup>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="econsent" title="Informed eConsent" instructions="" offline_instructions="" acknowledgement="" stop_action_acknowledgement="&lt;div style=&quot;border: 1px solid #00264E; border-radius: 20px; border-bottom-right-radius: 20px; padding: 1.5em 2em; background-color: #1e5288; text-align: left; box-shadow: 3px 3px 3px #888888;&quot;&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Thank you for your interest in this study.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Unfortunately, you did not consent to enroll in this study.&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;If you have questions please contact redcap@&lt;span style=&quot;text-decoration: underline;&quot;&gt;arizona.edu&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;/div&gt;" stop_action_delete_response="0" question_by_section="1" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="fdf2dbfeaadddecd9e58c3d8d5236f4d4735b131" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="eConsent Form" confirmation_email_content="&lt;p&gt;Here is a copy of your consent document.&lt;/p&gt;
+&lt;p&gt;Thank you&lt;/p&gt;" confirmation_email_from="redcap@arizona.edu" confirmation_email_from_display="Simulated Spaceflight Environments" confirmation_email_attach_pdf="1" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" end_survey_redirect_next_survey_logic="[consent]=&#039;1&#039;" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="AFTER_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="email_address" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+		<redcap:Surveys form_name="eligibility" title="" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for answering the eligibility questions. &lt;/strong&gt;&lt;/p&gt;" stop_action_acknowledgement="&lt;div style=&quot;border: 1px solid #00264E; border-radius: 20px; border-bottom-right-radius: 20px; padding: 1.5em 2em; background-color: #1e5288; text-align: left; box-shadow: 3px 3px 3px #888888;&quot;&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Thank you for your interest in this study.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Unfortunately you do not meet the inclusion criteria.&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;If you have questions please contact &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;a href=&quot;mailto:jorgegarcia@arizona.edu&quot;&gt;jorgegarcia@arizona.edu&lt;/a&gt; &lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;/div&gt;" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:EconsentGroup>
+		<redcap:Econsent survey_id="econsent" version="" active="1" type_label="" custom_econsent_label="" notes="" firstname_field="first_name" firstname_event_id="" lastname_field="last_name" lastname_event_id="" dob_field="dob" dob_event_id="" allow_edit="0" signature_field1="" signature_field2="" signature_field3="" signature_field4="" signature_field5="" consent_form_location_field="consent_text" ID="8662a077fa77c35e47dde5702d6eeef077b45b5e"/>
+	</redcap:EconsentGroup>
+	<redcap:OdmAttachmentGroup>
+		<redcap:OdmAttachment MimeType="application/pdf" DocName="Fake_Informed_Consent_Form.pdf" ID="5a1c8324d117f4a3043261e1bf8fee0acb96d3ee"><![CDATA[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aWNhLUJvbGQKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCj4+CmVuZG9iago4IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9IZWx2ZXRpY2EKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQovRm9udCA8PAovRjEgNyAwIFIKL0YyIDggMCBSCj4+Ci9YT2JqZWN0IDw8Cj4+Cj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Qcm9kdWNlciAoUHlGUERGIDEuNy4yIGh0dHA6Ly9weWZwZGYuZ29vZ2xlY29kZS5jb20vKQovQ3JlYXRpb25EYXRlIChEOjIwMjUwNDI1MTgyMDE5KQo+PgplbmRvYmoKMTAgMCBvYmoKPDwKL1R5cGUgL0NhdGFsb2cKL1BhZ2VzIDEgMCBSCi9PcGVuQWN0aW9uIFszIDAgUiAvRml0SCBudWxsXQovUGFnZUxheW91dCAvT25lQ29sdW1uCj4+CmVuZG9iagp4cmVmCjAgMTEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAxNjY4IDAwMDAwIG4gCjAwMDAwMDE5NTggMDAwMDAgbiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDg3IDAwMDAwIG4gCjAwMDAwMDExODggMDAwMDAgbiAKMDAwMDAwMTI2NiAwMDAwMCBuIAowMDAwMDAxNzYxIDAwMDAwIG4gCjAwMDAwMDE4NjIgMDAwMDAgbiAKMDAwMDAwMjA3MiAwMDAwMCBuIAowMDAwMDAyMTgxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL1NpemUgMTEKL1Jvb3QgMTAgMCBSCi9JbmZvIDkgMCBSCj4+CnN0YXJ0eHJlZgoyMjg1CiUlRU9GCg==]]></redcap:OdmAttachment>
+	</redcap:OdmAttachmentGroup>
+	<redcap:EconsentFormsGroup>
+		<redcap:EconsentForms consent_id="8662a077fa77c35e47dde5702d6eeef077b45b5e" version="2.0" consent_form_active="1" creation_time="2025-04-25 11:24:29" uploader="7326" consent_form_pdf_doc_id="5a1c8324d117f4a3043261e1bf8fee0acb96d3ee" consent_form_richtext="" consent_form_filter_dag_id="" consent_form_filter_lang_id=""/>
+	</redcap:EconsentFormsGroup>
+	<redcap:PdfSnapshotsGroup>
+		<redcap:PdfSnapshots active="1" name="" custom_filename_prefix="pid[project-id]_form[instrument-label]_id[record-name]" consent_id="8662a077fa77c35e47dde5702d6eeef077b45b5e" trigger_surveycomplete_survey_id="econsent" trigger_surveycomplete_event_id="" trigger_logic="" selected_forms_events=":econsent" pdf_save_to_file_repository="1" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="1" pdf_compact="1"/>
+		<redcap:PdfSnapshots active="1" name="Eligibility" custom_filename_prefix="pid[project-id]_form[instrument-label]_id[record-name]" consent_id="" trigger_surveycomplete_survey_id="eligibility" trigger_surveycomplete_event_id="" trigger_logic="" selected_forms_events="event_1_arm_1:eligibility" pdf_save_to_file_repository="1" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_compact="1"/>
+	</redcap:PdfSnapshotsGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Main Users" unique_role_name="U-977T4393AF" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[econsent,1][pci_registry_pull,1][stop,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" email_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="0" data_entry="[econsent,3][pci_registry_pull,3][stop,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
+	</redcap:UserRolesGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="weather report" unique_report_name="R-7448X3HMWX" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="RECORD" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="7HFTA3C873HFRWCF" short_url="" is_public="0" report_display_include_repeating_fields="0" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="5007d4e7629822b7019e84a385dbc9f9fa303034"/>
+		<redcap:Reports title="consents" unique_report_name="R-221HHNETJC" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="7PM4LRKH4WJYN78H" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,entry_date,version,consent,first_name,last_name,email_address,dob,phone_number,contact,part_signature,econsent_date,econsent_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="469d043da1c46a7ee974eab09ffa163de37ac9a9"/>
+	</redcap:ReportsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.2025EConsentSampleWembedding_2025-05-08_1308" Name="2025 eConsent Sample w/embedding" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.econsent" Name="Informed eConsent" Repeating="No" redcap:FormName="econsent">
+		<ItemGroupRef ItemGroupOID="econsent.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="econsent.econsent_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.eligibility" Name="Eligibility " Repeating="No" redcap:FormName="eligibility">
+		<ItemGroupRef ItemGroupOID="eligibility.descriptive_eligib" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="eligibility.eligibility_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.stop" Name="Stop" Repeating="No" redcap:FormName="stop">
+		<ItemGroupRef ItemGroupOID="stop.stop" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="stop.stop_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="econsent.record_id" Name="Informed eConsent" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="entry_date" Mandatory="No" redcap:Variable="entry_date"/>
+		<ItemRef ItemOID="consent_intro" Mandatory="No" redcap:Variable="consent_intro"/>
+		<ItemRef ItemOID="intro_2" Mandatory="No" redcap:Variable="intro_2"/>
+		<ItemRef ItemOID="consent_text" Mandatory="No" redcap:Variable="consent_text"/>
+		<ItemRef ItemOID="version" Mandatory="No" redcap:Variable="version"/>
+		<ItemRef ItemOID="consent" Mandatory="No" redcap:Variable="consent"/>
+		<ItemRef ItemOID="lbl_participant" Mandatory="No" redcap:Variable="lbl_participant"/>
+		<ItemRef ItemOID="first_name" Mandatory="Yes" redcap:Variable="first_name"/>
+		<ItemRef ItemOID="last_name" Mandatory="Yes" redcap:Variable="last_name"/>
+		<ItemRef ItemOID="email_address" Mandatory="Yes" redcap:Variable="email_address"/>
+		<ItemRef ItemOID="dob" Mandatory="No" redcap:Variable="dob"/>
+		<ItemRef ItemOID="phone_number" Mandatory="Yes" redcap:Variable="phone_number"/>
+		<ItemRef ItemOID="contact" Mandatory="Yes" redcap:Variable="contact"/>
+		<ItemRef ItemOID="part_signature" Mandatory="Yes" redcap:Variable="part_signature"/>
+		<ItemRef ItemOID="econsent_date" Mandatory="No" redcap:Variable="econsent_date"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="econsent.econsent_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="econsent_complete" Mandatory="No" redcap:Variable="econsent_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="eligibility.descriptive_eligib" Name="Eligibility " Repeating="No">
+		<ItemRef ItemOID="descriptive_eligib" Mandatory="No" redcap:Variable="descriptive_eligib"/>
+		<ItemRef ItemOID="eligibility_label_2" Mandatory="No" redcap:Variable="eligibility_label_2"/>
+		<ItemRef ItemOID="age" Mandatory="Yes" redcap:Variable="age"/>
+		<ItemRef ItemOID="disorders" Mandatory="Yes" redcap:Variable="disorders"/>
+		<ItemRef ItemOID="disorder_2" Mandatory="Yes" redcap:Variable="disorder_2"/>
+		<ItemRef ItemOID="medical" Mandatory="Yes" redcap:Variable="medical"/>
+		<ItemRef ItemOID="virtual" Mandatory="Yes" redcap:Variable="virtual"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="eligibility.eligibility_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="eligibility_complete" Mandatory="No" redcap:Variable="eligibility_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="stop.stop" Name="Stop" Repeating="No">
+		<ItemRef ItemOID="stop" Mandatory="No" redcap:Variable="stop"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="stop.stop_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="stop_complete" Mandatory="No" redcap:Variable="stop_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="entry_date" Name="entry_date" DataType="date" Length="999" redcap:Variable="entry_date" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDDEN-SURVEY @READONLY @TODAY @HIDEBUTTON">
+		<Question><TranslatedText>Entry Date </TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="consent_intro" Name="consent_intro" DataType="text" Length="999" redcap:Variable="consent_intro" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Evaluation of Cognitive and Physiological Responses to Simulated
+Spaceflight Environments in Healthy Adults</TranslatedText><redcap:FormattedTranslatedText>&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #0c234b;&quot;&gt;&lt;strong&gt;Evaluation of Cognitive and Physiological Responses to Simulated&lt;/strong&gt;&lt;/span&gt;&lt;/h5&gt;
+&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #0c234b;&quot;&gt;&lt;strong&gt;Spaceflight Environments in Healthy Adults&lt;/strong&gt;&lt;/span&gt;&lt;/h5&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="intro_2" Name="intro_2" DataType="text" Length="999" redcap:Variable="intro_2" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Dear Participant, 
+This study aims to evaluate the cognitive performance and physiological responses of healthy adult participants when exposed to simulated spaceflight environments, including altered gravity, confined spaces, and disrupted circadian rhythms. Using virtual reality simulations and biometric monitoring, the research seeks to identify potential stressors and adaptive behaviors relevant to long-duration space missions. CB2 Team
+University of Arizona
+redcap@arizona.edu    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Dear Participant,&lt;/p&gt; &lt;p&gt;&lt;br&gt;This study aims to evaluate the cognitive performance and physiological responses of healthy adult participants when exposed to simulated spaceflight environments, including altered gravity, confined spaces, and disrupted circadian rhythms. Using virtual reality simulations and biometric monitoring, the research seeks to identify potential stressors and adaptive behaviors relevant to long-duration space missions.&lt;/p&gt; &lt;p&gt;CB2 Team&lt;br&gt;University of Arizona&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;mailto:redcap@arizona.edu&quot;&gt;redcap@arizona.edu &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; src=&quot;https://redcap.uahs.arizona.edu/redcap_v15.3.0/DataEntry/image_view.php?pid=20733&amp;id=1905757&amp;doc_id_hash=fd740d5da97bf018edceb76ce3dd47675389ae0d&quot; alt=&quot;&quot; width=&quot;398&quot; height=&quot;265&quot;&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="consent_text" Name="consent_text" DataType="text" Length="999" redcap:Variable="consent_text" redcap:FieldType="descriptive">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="version" Name="version" DataType="text" Length="999" redcap:Variable="version" redcap:FieldType="text" redcap:FieldAnnotation="@HIDDEN-SURVEY  @CONSENT-VERSION">
+		<Question><TranslatedText>ICF Version</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="consent" Name="consent" DataType="text" Length="1" redcap:Variable="consent" redcap:FieldType="radio" redcap:StopActions="0" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Do you agree to participate in this study</TranslatedText></Question>
+		<CodeListRef CodeListOID="consent.choices"/>
+	</ItemDef>
+	<ItemDef OID="lbl_participant" Name="lbl_participant" DataType="text" Length="999" redcap:Variable="lbl_participant" redcap:FieldType="descriptive" redcap:BranchingLogic="[consent] = &#039;1&#039;">
+		<Question><TranslatedText>Signing the consent form
+I have read (or someone has read to me) this form, and I am aware that I am being asked to participate in a research study. I have had the opportunity to ask questions and have had them answered to my satisfaction. I voluntarily agree to participate in this study.  I am not giving up any legal rights by signing this form. I will be given a copy of this form.    Printed name of subject   First Name: {first_name:icons}   Last Name: {last_name:icons}   Email Address: {email_address:icons}   Telephone: {phone_number:icons}   DOB {dob}   What is your contact preference? {contact:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Signing the consent form&lt;br&gt;I have read (or someone has read to me) this form, and I am aware that I am being asked to participate in a research study. I have had the opportunity to ask questions and have had them answered to my satisfaction. I voluntarily agree to participate in this study.&lt;/p&gt; &lt;p&gt; I am not giving up any legal rights by signing this form. I will be given a copy of this form.&lt;/p&gt; &lt;table style=&quot;border-collapse: collapse; width: 99.9366%; height: 129.787px;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.0158%;&quot;&gt;&lt;col style=&quot;width: 10.1549%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 23.9574px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;10&quot;&gt;Printed name of subject&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 23.9574px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;First Name:&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{first_name:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 23.9574px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;Last Name:&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{last_name:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 23.9574px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;Email Address:&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{email_address:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 23.9574px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;Telephone:&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{phone_number:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;DOB&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{dob}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 10px;&quot;&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid; text-align: right;&quot; colspan=&quot;5&quot;&gt;What is your contact preference?&lt;/td&gt; &lt;td style=&quot;border-color: #ba372a; border-style: solid;&quot; colspan=&quot;5&quot;&gt;{contact:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="first_name" Name="first_name" DataType="text" Length="999" redcap:Variable="first_name" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[consent] = 1">
+		<Question><TranslatedText>First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="last_name" Name="last_name" DataType="text" Length="999" redcap:Variable="last_name" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[consent] = 1">
+		<Question><TranslatedText>Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email_address" Name="email_address" DataType="text" Length="999" redcap:Variable="email_address" redcap:FieldType="text" redcap:TextValidationType="email" redcap:RequiredField="y" redcap:BranchingLogic="[consent] = 1">
+		<Question><TranslatedText>Email address</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dob" Name="dob" DataType="text" Length="999" redcap:Variable="dob" redcap:FieldType="text">
+		<Question><TranslatedText>DOB</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="phone_number" Name="phone_number" DataType="text" Length="999" redcap:Variable="phone_number" redcap:FieldType="text" redcap:TextValidationType="phone" redcap:RequiredField="y" redcap:BranchingLogic="[consent] = 1">
+		<Question><TranslatedText>Phone number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="contact" Name="contact" DataType="text" Length="1" redcap:Variable="contact" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[consent] = &#039;1&#039;">
+		<Question><TranslatedText>What is your contact preference?</TranslatedText></Question>
+		<CodeListRef CodeListOID="contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="part_signature" Name="part_signature" DataType="text" Length="999" redcap:Variable="part_signature" redcap:FieldType="file" redcap:TextValidationType="signature" redcap:FieldNote="Please click the green text to add your signature." redcap:RequiredField="y" redcap:BranchingLogic="[consent] = &#039;1&#039;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText></TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="econsent_date" Name="econsent_date" DataType="datetime" Length="999" redcap:Variable="econsent_date" redcap:FieldType="text" redcap:TextValidationType="datetime_seconds_mdy" redcap:BranchingLogic="[consent] = &#039;1&#039;" redcap:FieldAnnotation="@HIDDEN @NOW-SERVER @READONLY">
+		<Question><TranslatedText>eConsent Signature Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="econsent_complete" Name="econsent_complete" DataType="text" Length="1" redcap:Variable="econsent_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="econsent_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="descriptive_eligib" Name="descriptive_eligib" DataType="text" Length="999" redcap:Variable="descriptive_eligib" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Eligibility Questions   The following questions will help us to determine whether you are eligible for the study.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h6 style=&quot;text-align: center;&quot;&gt;Eligibility Questions&lt;/h6&gt; &lt;p&gt; &lt;/p&gt; &lt;h6&gt;The following questions will help us to determine whether you are eligible for the study.&lt;/h6&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="eligibility_label_2" Name="eligibility_label_2" DataType="text" Length="999" redcap:Variable="eligibility_label_2" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Please note the following responses are required:    Are you between the ages of 25 and 45 years old? {age:icons}   Have you been diagnosed with any neurological or psychiatric disorders in the past 5 years? {disorders:icons}   Do you have a history of motion sickness, vertigo, or balance disorders? {disorder_2:icons}    Are you currently taking any medications that affect cognitive function or alertness?  {medical:icons}   Have you ever participated in a clinical study involving virtual reality or sensory deprivation? {virtual:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Please note the following responses &lt;span style=&quot;color: #ba372a;&quot;&gt;are required:&lt;/span&gt;&lt;/p&gt; &lt;table style=&quot;border-collapse: collapse; width: 99.9476%; height: 128.5px;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 10.0492%;&quot;&gt;&lt;col style=&quot;width: 11.5026%;&quot;&gt;&lt;col style=&quot;width: 8.01311%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 24.6667px;&quot;&gt; &lt;td style=&quot;background-color: #ecf9f9; border-color: #c2e0f4; text-align: left;&quot; colspan=&quot;7&quot;&gt;Are you between the ages of 25 and 45 years old?&lt;/td&gt; &lt;td style=&quot;text-align: center; background-color: #ecf9f9; border-color: #c2e0f4;&quot; colspan=&quot;3&quot;&gt;{age:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 24.6667px;&quot;&gt; &lt;td style=&quot;background-color: #ecf9f9; border-color: #c2e0f4; text-align: left;&quot; colspan=&quot;7&quot;&gt;Have you been diagnosed with any neurological or psychiatric disorders in the past 5 years?&lt;/td&gt; &lt;td style=&quot;text-align: center; background-color: #ecf9f9; border-color: #c2e0f4;&quot; colspan=&quot;3&quot;&gt;{disorders:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 24.6667px;&quot;&gt; &lt;td style=&quot;background-color: #ecf9f9; border-color: #c2e0f4; text-align: left;&quot; colspan=&quot;7&quot;&gt;Do you have a history of motion sickness, vertigo, or balance disorders?&lt;/td&gt; &lt;td style=&quot;text-align: center; background-color: #ecf9f9; border-color: #c2e0f4;&quot; colspan=&quot;3&quot;&gt;{disorder_2:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 42.6667px;&quot;&gt; &lt;td style=&quot;background-color: #ecf9f9; border-color: #c2e0f4; text-align: left;&quot; colspan=&quot;7&quot;&gt; &lt;p class=&quot;&quot; data-start=&quot;385&quot; data-end=&quot;472&quot;&gt;Are you currently taking any medications that affect cognitive function or alertness?&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;text-align: center; background-color: #ecf9f9; border-color: #c2e0f4;&quot; colspan=&quot;3&quot;&gt;{medical:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 11.8333px;&quot;&gt; &lt;td style=&quot;background-color: #ecf9f9; border-color: #c2e0f4; text-align: left;&quot; colspan=&quot;7&quot;&gt;Have you ever participated in a clinical study involving virtual reality or sensory deprivation?&lt;/td&gt; &lt;td style=&quot;text-align: center; background-color: #ecf9f9; border-color: #c2e0f4;&quot; colspan=&quot;3&quot;&gt;{virtual:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="text" Length="1" redcap:Variable="age" redcap:FieldType="radio" redcap:RequiredField="y" redcap:StopActions="0" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Are you between the ages of 25 and 45 years old?</TranslatedText></Question>
+		<CodeListRef CodeListOID="age.choices"/>
+	</ItemDef>
+	<ItemDef OID="disorders" Name="disorders" DataType="text" Length="1" redcap:Variable="disorders" redcap:FieldType="radio" redcap:RequiredField="y" redcap:StopActions="1" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Have you been diagnosed with any neurological or psychiatric disorders in the past 5 years?
+
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="disorders.choices"/>
+	</ItemDef>
+	<ItemDef OID="disorder_2" Name="disorder_2" DataType="text" Length="1" redcap:Variable="disorder_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:StopActions="1" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Do you have a history of motion sickness, vertigo, or balance disorders?
+
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="disorder_2.choices"/>
+	</ItemDef>
+	<ItemDef OID="medical" Name="medical" DataType="text" Length="1" redcap:Variable="medical" redcap:FieldType="radio" redcap:RequiredField="y" redcap:StopActions="1" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Are you currently taking any medications that affect cognitive function or alertness?
+
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="medical.choices"/>
+	</ItemDef>
+	<ItemDef OID="virtual" Name="virtual" DataType="text" Length="1" redcap:Variable="virtual" redcap:FieldType="radio" redcap:RequiredField="y" redcap:StopActions="1" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Have you ever participated in a clinical study involving virtual reality or sensory deprivation?
+
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="virtual.choices"/>
+	</ItemDef>
+	<ItemDef OID="eligibility_complete" Name="eligibility_complete" DataType="text" Length="1" redcap:Variable="eligibility_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="eligibility_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="stop" Name="stop" DataType="text" Length="999" redcap:Variable="stop" redcap:FieldType="descriptive" redcap:BranchingLogic="[age] = &#039;0&#039; and [disorders] = &#039;1&#039; and [virtual] = &#039;1&#039; and [medical] = &#039;1&#039; and [virtual] = &#039;1&#039;">
+		<Question><TranslatedText> Thank you for your interest in this study.
+Unfortunately you do not meet the inclusion criteria. If you have questions please contact jorgegarcia@arizona.edu </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;div style=&quot;border: 1px solid #00264E; border-radius: 20px; border-bottom-right-radius: 20px; padding: 1.5em 2em; background-color: #1e5288; text-align: left; box-shadow: 3px 3px 3px #888888;&quot;&gt; &lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Thank you for your interest in this study.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Unfortunately you do not meet the inclusion criteria.&lt;/span&gt;&lt;/h3&gt; &lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;If you have questions please contact &lt;span style=&quot;text-decoration: underline;&quot;&gt;jorgegarcia@arizona.edu&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt; &lt;/div&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="stop_complete" Name="stop_complete" DataType="text" Length="1" redcap:Variable="stop_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="stop_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="consent.choices" Name="consent" DataType="text" redcap:Variable="consent">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="contact.choices" Name="contact" DataType="text" redcap:Variable="contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Email</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Phone</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="econsent_complete.choices" Name="econsent_complete" DataType="text" redcap:Variable="econsent_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="age.choices" Name="age" DataType="text" redcap:Variable="age">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="disorders.choices" Name="disorders" DataType="text" redcap:Variable="disorders">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="disorder_2.choices" Name="disorder_2" DataType="text" redcap:Variable="disorder_2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medical.choices" Name="medical" DataType="text" redcap:Variable="medical">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="virtual.choices" Name="virtual" DataType="text" redcap:Variable="virtual">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="eligibility_complete.choices" Name="eligibility_complete" DataType="text" redcap:Variable="eligibility_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="stop_complete.choices" Name="stop_complete" DataType="text" redcap:Variable="stop_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>

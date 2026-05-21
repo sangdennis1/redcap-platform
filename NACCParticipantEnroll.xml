@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="NACC Participant Enrollment/Transfer Form - Template (for XML distribution)" AsOfDateTime="2025-04-07T12:35:33" CreationDateTime="2025-04-07T12:35:33" SourceSystem="REDCap" SourceSystemVersion="15.1.2">
+<Study OID="Project.NACCParticipantEnrollmentTrans">
+<GlobalVariables>
+	<StudyName>NACC Participant Enrollment/Transfer Form - Template (for XML distribution)</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "NACC Participant Enrollment/Transfer Form - Template (for XML distribution)".</StudyDescription>
+	<ProtocolName>NACC Participant Enrollment/Transfer Form - Template (for XML distribution)</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>[adcid] PTID: [ptid]</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>0</redcap:taskCompleteStatus>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes>NACC Participant Enrollment/Transfer Form - Template (for XML distribution)</redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText>REDCap Secure Messaging</redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="Export NACC Participant Enrollment/Transfer Records" unique_report_name="R-594KHHNJKX" report_order="1" user_access="ALL" user_edit_access="ALL" description="&lt;h6&gt;&lt;strong&gt;&lt;span style=&quot;color: #2dc26b;&quot;&gt;This report can be downloaded as a CSV file and uploaded to NACC Data Platform via ADRC portal or API. &lt;/span&gt;&lt;/strong&gt;&lt;/h6&gt;" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="adcid" orderby_sort1="ASC" orderby_field2="ptid" orderby_sort2="ASC" orderby_field3="frmdate_enrl" orderby_sort3="ASC" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="WW9P33K8RWDJR9FF" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="LABEL" limiter_logic="" redcap_reports_fields="adcid,ptid,frmdate_enrl,initials_enrl,formver,enrltype,enrlbirthmo,enrlbirthyr,enrleduc,enrlgenothx,enrlgenman,enrlgenwoman,enrlgentrman,enrlgentrwoman,enrlgennonbi,enrlgentwospir,enrlgenoth,enrlgendkn,enrlgennoans,guidavail,guid,prevenrl,oldadcid,oldptid,naccidknwn,naccid,ptidconf" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="a6f16ab483da9847d431a822e6c85e144dc54f30"/>
+	</redcap:ReportsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.NACCParticipantEnrollmentTrans_2025-04-07_1235" Name="NACC Participant Enrollment/Transfer Form - Template (for XML distribution)" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.participant_enrollmenttransfer_form" Name="Participant Enrollment/Transfer Form" Repeating="No" redcap:FormName="participant_enrollmenttransfer_form">
+		<ItemGroupRef ItemGroupOID="participant_enrollmenttransfer_form.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="participant_enrollmenttransfer_form.participant_enrollmenttransfer_form_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="participant_enrollmenttransfer_form.record_id" Name="Participant Enrollment/Transfer Form" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="enrl_header" Mandatory="No" redcap:Variable="enrl_header"/>
+		<ItemRef ItemOID="adcid" Mandatory="Yes" redcap:Variable="adcid"/>
+		<ItemRef ItemOID="ptid" Mandatory="Yes" redcap:Variable="ptid"/>
+		<ItemRef ItemOID="frmdate_enrl" Mandatory="Yes" redcap:Variable="frmdate_enrl"/>
+		<ItemRef ItemOID="initials_enrl" Mandatory="Yes" redcap:Variable="initials_enrl"/>
+		<ItemRef ItemOID="formver" Mandatory="Yes" redcap:Variable="formver"/>
+		<ItemRef ItemOID="loc_instr" Mandatory="No" redcap:Variable="loc_instr"/>
+		<ItemRef ItemOID="enrltype_exp" Mandatory="No" redcap:Variable="enrltype_exp"/>
+		<ItemRef ItemOID="enrltype" Mandatory="Yes" redcap:Variable="enrltype"/>
+		<ItemRef ItemOID="loc_enrlbirthdt" Mandatory="No" redcap:Variable="loc_enrlbirthdt"/>
+		<ItemRef ItemOID="enrlbirthmo" Mandatory="Yes" redcap:Variable="enrlbirthmo"/>
+		<ItemRef ItemOID="enrlbirthyr" Mandatory="Yes" redcap:Variable="enrlbirthyr"/>
+		<ItemRef ItemOID="loc_educ" Mandatory="No" redcap:Variable="loc_educ"/>
+		<ItemRef ItemOID="enrleduc" Mandatory="Yes" redcap:Variable="enrleduc"/>
+		<ItemRef ItemOID="enrl_gender_section" Mandatory="No" redcap:Variable="enrl_gender_section"/>
+		<ItemRef ItemOID="loc_enrl_gender___1" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___2" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___3" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___4" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___5" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___6" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___7" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___8" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="loc_enrl_gender___9" Mandatory="Yes" redcap:Variable="loc_enrl_gender"/>
+		<ItemRef ItemOID="enrl_gender_sectionx" Mandatory="No" redcap:Variable="enrl_gender_sectionx"/>
+		<ItemRef ItemOID="enrlgenothx" Mandatory="Yes" redcap:Variable="enrlgenothx"/>
+		<ItemRef ItemOID="enrlgenman" Mandatory="No" redcap:Variable="enrlgenman"/>
+		<ItemRef ItemOID="enrlgenwoman" Mandatory="No" redcap:Variable="enrlgenwoman"/>
+		<ItemRef ItemOID="enrlgentrman" Mandatory="No" redcap:Variable="enrlgentrman"/>
+		<ItemRef ItemOID="enrlgentrwoman" Mandatory="No" redcap:Variable="enrlgentrwoman"/>
+		<ItemRef ItemOID="enrlgennonbi" Mandatory="No" redcap:Variable="enrlgennonbi"/>
+		<ItemRef ItemOID="enrlgentwospir" Mandatory="No" redcap:Variable="enrlgentwospir"/>
+		<ItemRef ItemOID="enrlgenoth" Mandatory="No" redcap:Variable="enrlgenoth"/>
+		<ItemRef ItemOID="enrlgendkn" Mandatory="No" redcap:Variable="enrlgendkn"/>
+		<ItemRef ItemOID="enrlgennoans" Mandatory="No" redcap:Variable="enrlgennoans"/>
+		<ItemRef ItemOID="loc_guid_table_1" Mandatory="No" redcap:Variable="loc_guid_table_1"/>
+		<ItemRef ItemOID="guidavail" Mandatory="Yes" redcap:Variable="guidavail"/>
+		<ItemRef ItemOID="loc_guid_table_2" Mandatory="No" redcap:Variable="loc_guid_table_2"/>
+		<ItemRef ItemOID="guid" Mandatory="Yes" redcap:Variable="guid"/>
+		<ItemRef ItemOID="loc_prevenrl" Mandatory="No" redcap:Variable="loc_prevenrl"/>
+		<ItemRef ItemOID="prevenrl" Mandatory="Yes" redcap:Variable="prevenrl"/>
+		<ItemRef ItemOID="loc_enrltype_prevenrl_no_match" Mandatory="Yes" redcap:Variable="loc_enrltype_prevenrl_no_match"/>
+		<ItemRef ItemOID="loc_prevenrl_2" Mandatory="No" redcap:Variable="loc_prevenrl_2"/>
+		<ItemRef ItemOID="oldadcid" Mandatory="Yes" redcap:Variable="oldadcid"/>
+		<ItemRef ItemOID="oldptid" Mandatory="No" redcap:Variable="oldptid"/>
+		<ItemRef ItemOID="loc_same_center_calc_prev" Mandatory="No" redcap:Variable="loc_same_center_calc_prev"/>
+		<ItemRef ItemOID="loc_same_prev_adrc_error" Mandatory="Yes" redcap:Variable="loc_same_prev_adrc_error"/>
+		<ItemRef ItemOID="loc_naccid" Mandatory="No" redcap:Variable="loc_naccid"/>
+		<ItemRef ItemOID="naccidknwn" Mandatory="Yes" redcap:Variable="naccidknwn"/>
+		<ItemRef ItemOID="loc_naccid_2" Mandatory="No" redcap:Variable="loc_naccid_2"/>
+		<ItemRef ItemOID="naccid" Mandatory="Yes" redcap:Variable="naccid"/>
+		<ItemRef ItemOID="loc_ptidconf" Mandatory="No" redcap:Variable="loc_ptidconf"/>
+		<ItemRef ItemOID="ptidconf" Mandatory="Yes" redcap:Variable="ptidconf"/>
+		<ItemRef ItemOID="loc_ptid_error" Mandatory="Yes" redcap:Variable="loc_ptid_error"/>
+		<ItemRef ItemOID="footer_enrl" Mandatory="No" redcap:Variable="footer_enrl"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="participant_enrollmenttransfer_form.participant_enrollmenttransfer_form_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="participant_enrollmenttransfer_form_complete" Mandatory="No" redcap:Variable="participant_enrollmenttransfer_form_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrl_header" Name="enrl_header" DataType="text" Length="999" redcap:Variable="enrl_header" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   Form header     ADRC: {adcid:icons} Please enter your Center&#039;s ID. If you are unsure of it, you can reference  this list of current ADCIDs  in the NACC Data Platform.   PTID: {ptid:icons} PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally.   Form Date: {frmdate_enrl:icons}     Examiner&#039;s initials: {initials_enrl:icons}      Form version number    {formver:icons}       </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; border-width: 1px; border-style: solid; height: 326.375px; background-color: #ffffff;&quot; border=&quot;1&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 24px;&quot;&gt; &lt;td style=&quot;width: 62.342437%; background-color: #c2e0f4; border-style: hidden; border-width: 1px;&quot; colspan=&quot;2&quot;&gt;Form header&lt;/td&gt; &lt;td style=&quot;background-color: #c2e0f4; border-style: hidden; width: 37.657563%; border-width: 1px;&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 78px; border-style: solid;&quot;&gt; &lt;td style=&quot;width: 24.684874%; border-style: hidden; border-width: 1px;&quot;&gt;ADRC:&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;{adcid:icons}&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please enter your Center&#039;s ID. If you are unsure of it, you can reference &lt;a style=&quot;font-size: 100%;&quot; href=&quot;https://flywheel.naccdata.org/#/projects/65e1164c0fc1dd593aee4206/information?viewerParams=app%3D6630a5a1ea5c72e0e7fe216c;container%3D65e1164c0fc1dd593aee4206;  &quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; this list of current ADCIDs &lt;/a&gt; in the NACC Data Platform.&lt;/span&gt;&lt;/em&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 42px;&quot;&gt; &lt;td style=&quot;width: 24.684874%; border-style: hidden; border-width: 1px;&quot;&gt;PTID:&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;{ptid:icons}&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally.&lt;/span&gt;&lt;/em&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 24px;&quot;&gt; &lt;td style=&quot;width: 24.684874%; border-style: hidden; border-width: 1px;&quot;&gt;Form Date:&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;{frmdate_enrl:icons}&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 24px;&quot;&gt; &lt;td style=&quot;width: 24.684874%; border-style: hidden; border-width: 1px;&quot;&gt;Examiner&#039;s initials:&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;{initials_enrl:icons}&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 72px;&quot;&gt; &lt;td style=&quot;width: 24.684874%; border-style: hidden; border-width: 1px;&quot;&gt; &lt;p&gt;Form version number&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt;{formver:icons}&lt;/td&gt; &lt;td style=&quot;width: 37.657563%; border-style: hidden; border-width: 1px;&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="adcid" Name="adcid" DataType="integer" Length="999" redcap:Variable="adcid" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>ADCID</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;ADCID&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ptid" Name="ptid" DataType="text" Length="999" redcap:Variable="ptid" redcap:FieldType="text" redcap:RequiredField="y" redcap:FieldAnnotation="@CHARLIMIT=10">
+		<Question><TranslatedText>PTID</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;PTID&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="frmdate_enrl" Name="frmdate_enrl" DataType="date" Length="999" redcap:Variable="frmdate_enrl" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:RequiredField="y" redcap:FieldAnnotation="@TODAY-SERVER">
+		<Question><TranslatedText>Form date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="initials_enrl" Name="initials_enrl" DataType="text" Length="999" redcap:Variable="initials_enrl" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:RequiredField="y" redcap:FieldAnnotation="@CHARLIMIT=6">
+		<Question><TranslatedText>Examiner&#039;s initials</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="formver" Name="formver" DataType="text" Length="1" redcap:Variable="formver" redcap:FieldType="radio" redcap:RequiredField="y" redcap:FieldAnnotation="@DEFAULT=&#039;1&#039;">
+		<Question><TranslatedText>Form version number (See bottom of current form for version number)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Form version number&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;(See bottom of current form for version number)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="formver.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_instr" Name="loc_instr" DataType="text" Length="999" redcap:Variable="loc_instr" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   INSTRUCTIONS: Submit this form to assign NACCIDs for first-time participants at the time of consent or to transfer an existing participant to your center from a different center.     </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #ffffff;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 99.858357%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;&lt;em&gt;INSTRUCTIONS: Submit this form to assign NACCIDs for first-time participants at the time of consent or to transfer an existing participant to your center from a different center.&lt;/em&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrltype_exp" Name="enrltype_exp" DataType="text" Length="999" redcap:Variable="enrltype_exp" redcap:FieldType="descriptive">
+		<Question><TranslatedText>     1.     NACCIDs must be assigned at the time of consent for all participants that will be a part of the UDS.  If a new participant at your center will participate in the UDS (even if this UDS data will be submitted later), you must assign them a NACCID at the time of consent. This NACCID will accompany all data (for any data type - e.g. SCAN, CLARiTI, or other data streams) that are submitted to the NACC Data Platform for this participant. A NACCID is assigned at the time of consent regardless of what data type will be submitted to the NACC Data Platform first. To procure a NACCID for this participant using this form, select &#039;Assign NACCIDs for first-time participants&#039;.       Transfer a participant from one site to another: ADRCs can transfer existing participants from one ADRC to another using this form.  This can be done by the new ADRC that the participant is joining. To transfer a participant to your center, select &#039;Transfer a participant to your site&#039;.    {enrltype:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.896445%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 5.087209%;&quot;&gt;&lt;col style=&quot;width: 44.912791%;&quot;&gt;&lt;col style=&quot;width: 50%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;p class=&quot;Paragraph SCXW178607312 BCX0&quot;&gt;1.&lt;/p&gt; &lt;/div&gt; &lt;/td&gt; &lt;td&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;p class=&quot;Paragraph SCXW178607312 BCX0&quot;&gt;NACCIDs must be assigned at the time of consent for all participants that will be a part of the UDS.  If a new participant at your center will participate in the UDS (even if this UDS data will be submitted later), you must assign them a NACCID at the time of consent. This NACCID will accompany all data (for any data type - e.g. SCAN, CLARiTI, or other data streams) that are submitted to the NACC Data Platform for this participant. A NACCID is assigned at the time of consent regardless of what data type will be submitted to the NACC Data Platform first. To procure a NACCID for this participant using this form, select &#039;Assign NACCIDs for first-time participants&#039;.  &lt;/p&gt; &lt;/div&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;/div&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;p class=&quot;Paragraph SCXW178607312 BCX0&quot;&gt;Transfer a participant from one site to another: ADRCs can transfer existing participants from one ADRC to another using this form.  This can be done by the new ADRC that the participant is joining. To transfer a participant to your center, select &#039;Transfer a participant to your site&#039;. &lt;/p&gt; &lt;/div&gt; &lt;/td&gt; &lt;td&gt;{enrltype:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrltype" Name="enrltype" DataType="text" Length="1" redcap:Variable="enrltype" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>1. Is this a first time NACCID assignment or a transfer for the participant?</TranslatedText></Question>
+		<CodeListRef CodeListOID="enrltype.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrlbirthdt" Name="loc_enrlbirthdt" DataType="text" Length="999" redcap:Variable="loc_enrlbirthdt" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   2. Participant&#039;s month and year of birth  {enrlbirthmo:icons} (YYYY) {enrlbirthyr:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100.090573%; border-width: 1px; border-style: hidden; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 4.101839%;&quot;&gt;&lt;col style=&quot;width: 0%;&quot;&gt;&lt;col style=&quot;width: 35.774086%;&quot;&gt;&lt;col style=&quot;width: 20.650636%;&quot;&gt;&lt;col style=&quot;width: 19.660537%;&quot;&gt;&lt;col style=&quot;width: 19.660537%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;2.&lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot; colspan=&quot;2&quot;&gt;Participant&#039;s month and year of birth &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;{enrlbirthmo:icons}&lt;/td&gt; &lt;td style=&quot;border-style: hidden; text-align: right;&quot;&gt;(YYYY)&lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;{enrlbirthyr:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlbirthmo" Name="enrlbirthmo" DataType="text" Length="2" redcap:Variable="enrlbirthmo" redcap:FieldType="select" redcap:TextValidationType="autocomplete" redcap:RequiredField="y">
+		<Question><TranslatedText>2a. Participant&#039;s month of birth</TranslatedText></Question>
+		<CodeListRef CodeListOID="enrlbirthmo.choices"/>
+	</ItemDef>
+	<ItemDef OID="enrlbirthyr" Name="enrlbirthyr" DataType="integer" Length="999" redcap:Variable="enrlbirthyr" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>2b. Participant&#039;s year of birth</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>1850</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (1850 - 2030). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>2030</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (1850 - 2030). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="loc_educ" Name="loc_educ" DataType="text" Length="999" redcap:Variable="loc_educ" redcap:FieldType="descriptive">
+		<Question><TranslatedText>     3.     How many years of education has the participant completed?   {enrleduc:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.896445%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 5.087209%;&quot;&gt;&lt;col style=&quot;width: 44.912791%;&quot;&gt;&lt;col style=&quot;width: 50%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;p class=&quot;Paragraph SCXW178607312 BCX0&quot;&gt;3.&lt;/p&gt; &lt;/div&gt; &lt;/td&gt; &lt;td&gt; &lt;div class=&quot;OutlineElement Ltr SCXW178607312 BCX0&quot;&gt; &lt;p class=&quot;Paragraph SCXW178607312 BCX0&quot;&gt;&lt;span style=&quot;text-align: var(--bs-body-text-align);&quot;&gt;How many years of education has the participant completed?&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/td&gt; &lt;td&gt;{enrleduc:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrleduc" Name="enrleduc" DataType="text" Length="2" redcap:Variable="enrleduc" redcap:FieldType="select" redcap:TextValidationType="autocomplete" redcap:RequiredField="y">
+		<Question><TranslatedText>3. How many years of education has the participant completed?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;3. How many years of education has the participant completed?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="enrleduc.choices"/>
+	</ItemDef>
+	<ItemDef OID="enrl_gender_section" Name="enrl_gender_section" DataType="text" Length="999" redcap:Variable="enrl_gender_section" redcap:FieldType="descriptive">
+		<Question><TranslatedText>          4.   Which term(s) that best describes the participant&#039;s current gender identity? (Select all that apply)  {loc_enrl_gender:icons}        Introduction for the participant: The next question asks about your gender identity. By gender identity, we mean the inner sense that you have of yourself as being a man, woman, or a different gender. Gender identity can be different from your sex assigned at birth or your sexual orientation, and it can change over time.      </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.896445%; border-width: 1px; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 5.813953%;&quot;&gt;&lt;col style=&quot;width: 44.186047%;&quot;&gt;&lt;col style=&quot;width: 50%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot; colspan=&quot;2&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;p&gt;4.&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;p&gt;Which term(s) that best describes the participant&#039;s current gender identity?&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;{loc_enrl_gender:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;p&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;p&gt;&lt;em&gt;Introduction for the participant:&lt;span style=&quot;font-weight: normal;&quot;&gt; The next question asks about your gender identity. By gender identity, we mean the inner sense that you have of yourself as being a man, woman, or a different gender. Gender identity can be different from your sex assigned at birth or your sexual orientation, and it can change over time.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___1" Name="loc_enrl_gender___1" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___2" Name="loc_enrl_gender___2" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___3" Name="loc_enrl_gender___3" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___4" Name="loc_enrl_gender___4" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___5" Name="loc_enrl_gender___5" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___6" Name="loc_enrl_gender___6" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___7" Name="loc_enrl_gender___7" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___7.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___8" Name="loc_enrl_gender___8" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___8.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrl_gender___9" Name="loc_enrl_gender___9" DataType="boolean" Length="1" redcap:Variable="loc_enrl_gender" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:FieldAnnotation="For displaying checkboxes on the data entry screen. Use the calculated fields ENRLGENMAN, ENRLGENWOMAN, ENRLGENTRMAN, ENRLGENTRWOMAN, ENRLGENNONBI, ENRLGENTWOSPIR, ENRLGENOTH, ENRLGENDKN, ENRLGENNOANS for all reports and data sets.">
+		<Question><TranslatedText>4. Which term(s) best describes the participant&#039;s current gender identity? (Select all that apply)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;4. Which term(s) best describes the participant&#039;s current gender identity? &lt;em&gt;(Select all that apply)&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrl_gender___9.choices"/>
+	</ItemDef>
+	<ItemDef OID="enrl_gender_sectionx" Name="enrl_gender_sectionx" DataType="text" Length="999" redcap:Variable="enrl_gender_sectionx" redcap:FieldType="descriptive" redcap:BranchingLogic="[enrlgenoth]=&#039;1&#039;">
+		<Question><TranslatedText>   Please specify how the participant describes their gender {enrlgenothx:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; border-width: 1px; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 49.9291%;&quot;&gt;&lt;col style=&quot;width: 49.9291%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;Please specify how the participant describes their gender&lt;/td&gt; &lt;td style=&quot;border-style: hidden;&quot;&gt;{enrlgenothx:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgenothx" Name="enrlgenothx" DataType="text" Length="999" redcap:Variable="enrlgenothx" redcap:FieldType="text" redcap:RequiredField="y" redcap:FieldAnnotation="@PLACEHOLDER=&quot;Specify&quot;">
+		<Question><TranslatedText>4ga. Please specify how the participant describes their gender</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgenman" Name="enrlgenman" DataType="text" Length="999" redcap:Variable="enrlgenman" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(1)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Man
+</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgenwoman" Name="enrlgenwoman" DataType="text" Length="999" redcap:Variable="enrlgenwoman" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(2)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Woman</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgentrman" Name="enrlgentrman" DataType="text" Length="999" redcap:Variable="enrlgentrman" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(3)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Transgender man</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgentrwoman" Name="enrlgentrwoman" DataType="text" Length="999" redcap:Variable="enrlgentrwoman" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(4)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Transgender woman</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgennonbi" Name="enrlgennonbi" DataType="text" Length="999" redcap:Variable="enrlgennonbi" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(5)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Non-binary/genderqueer</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgentwospir" Name="enrlgentwospir" DataType="text" Length="999" redcap:Variable="enrlgentwospir" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(6)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Two-spirit
+</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgenoth" Name="enrlgenoth" DataType="text" Length="999" redcap:Variable="enrlgenoth" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(7)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-participant uses a different term</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgendkn" Name="enrlgendkn" DataType="text" Length="999" redcap:Variable="enrlgendkn" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(8)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Don&#039;t know</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="enrlgennoans" Name="enrlgennoans" DataType="text" Length="999" redcap:Variable="enrlgennoans" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([loc_enrl_gender(9)]=&#039;1&#039;,&#039;1&#039;,&#039;&#039;)) @HIDDEN">
+		<Question><TranslatedText>Gender-Prefer not to answer</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_guid_table_1" Name="loc_guid_table_1" DataType="text" Length="999" redcap:Variable="loc_guid_table_1" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   5.  Does the participant have a NIA GUID? About the NIA GUID  {guidavail:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 5.807365%;&quot;&gt;&lt;col style=&quot;width: 60.764873%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;5.&lt;/td&gt; &lt;td&gt; &lt;p&gt;Does the participant have a NIA GUID?&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;a href=&quot;https://pdbp.ninds.nih.gov/ninds-centralized-guid-server&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;About the NIA GUID&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt; &lt;/td&gt; &lt;td&gt;{guidavail:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="guidavail" Name="guidavail" DataType="text" Length="1" redcap:Variable="guidavail" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>5. Does the participant have a NIA GUID? 
+About the NIA GUID</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;5. Does the participant have a NIA GUID?&lt;/p&gt; &lt;p&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;a href=&quot;https://pdbp.ninds.nih.gov/ninds-centralized-guid-server&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;About the NIA GUID&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="guidavail.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_guid_table_2" Name="loc_guid_table_2" DataType="text" Length="999" redcap:Variable="loc_guid_table_2" redcap:FieldType="descriptive" redcap:BranchingLogic="[guidavail] = &#039;1&#039;">
+		<Question><TranslatedText>   5a. Please provide the NIA GUID? {guid:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 5.807365%;&quot;&gt;&lt;col style=&quot;width: 60.764873%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;5a.&lt;/td&gt; &lt;td&gt;Please provide the NIA GUID?&lt;/td&gt; &lt;td&gt;{guid:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="guid" Name="guid" DataType="text" Length="999" redcap:Variable="guid" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[guidavail] = &#039;1&#039;">
+		<Question><TranslatedText>5a. Please provide the NIA GUID (10-digit alpha-numeric format. Ex: NIH012ABC34DE)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;5a. Please provide the NIA GUID&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;(10-digit alpha-numeric format. Ex: NIH012ABC34DE)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_prevenrl" Name="loc_prevenrl" DataType="text" Length="999" redcap:Variable="loc_prevenrl" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   6. Has the participant been previously enrolled at another ADRC?  {prevenrl:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 8.923513%;&quot;&gt;&lt;col style=&quot;width: 57.648725%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;6.&lt;/td&gt; &lt;td&gt;Has the participant been previously enrolled at another ADRC? &lt;/td&gt; &lt;td&gt;{prevenrl:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prevenrl" Name="prevenrl" DataType="text" Length="1" redcap:Variable="prevenrl" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>6. Has the participant been previously enrolled at another ADRC? </TranslatedText></Question>
+		<CodeListRef CodeListOID="prevenrl.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_enrltype_prevenrl_no_match" Name="loc_enrltype_prevenrl_no_match" DataType="text" Length="1" redcap:Variable="loc_enrltype_prevenrl_no_match" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[enrltype]=&#039;2&#039; and [prevenrl]&lt;&gt;&#039;&#039; and ([prevenrl]=&#039;0&#039; or [prevenrl]=&#039;9&#039;)" redcap:CustomAlignment="LV" redcap:FieldAnnotation="@READONLY">
+		<Question><TranslatedText>   It looks like you indicated at the top of the form that this is a Transfer. However, your answer to the above question does not align. Please adjust either the enrollment type or your answer to the above question.     </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.9717%; background-color: #f8cac6; border-color: #BA372A;&quot; border=&quot;1&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 99.9151%;&quot;&gt;It looks like you indicated at the top of the form that this is a Transfer. However, your answer to the above question does not align. Please adjust either the enrollment type or your answer to the above question.&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_enrltype_prevenrl_no_match.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_prevenrl_2" Name="loc_prevenrl_2" DataType="text" Length="999" redcap:Variable="loc_prevenrl_2" redcap:FieldType="descriptive" redcap:BranchingLogic="[prevenrl] = &#039;1&#039;">
+		<Question><TranslatedText>   6a. At which ADRC was this participant previously enrolled? 
+Please enter the previous Center&#039;s ID. If you are unsure of it, you can reference  this list of current ADCIDs  in the NACC Data Platform. {oldadcid:icons}   6b.   Please provide the previous PTID (if known):
+
+PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally. If unknown, leave blank. {oldptid:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 8.923513%;&quot;&gt;&lt;col style=&quot;width: 57.648725%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;6a.&lt;/td&gt; &lt;td&gt;At which ADRC was this participant previously enrolled? &lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;Please enter the previous Center&#039;s ID. If you are unsure of it, you can reference &lt;a style=&quot;font-size: 100%;&quot; href=&quot;https://flywheel.naccdata.org/#/projects/65e1164c0fc1dd593aee4206/information?viewerParams=app%3D6630a5a1ea5c72e0e7fe216c;container%3D65e1164c0fc1dd593aee4206;  &quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; this list of current ADCIDs &lt;/a&gt; in the NACC Data Platform.&lt;/em&gt;&lt;/span&gt;&lt;/td&gt; &lt;td&gt;{oldadcid:icons}&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6b. &lt;/td&gt; &lt;td&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt; Please provide the previous PTID (if known):&lt;br&gt;&lt;br&gt;PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally. If unknown, leave blank.&lt;/em&gt;&lt;/span&gt;&lt;/td&gt; &lt;td&gt;{oldptid:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="oldadcid" Name="oldadcid" DataType="integer" Length="999" redcap:Variable="oldadcid" redcap:FieldType="text" redcap:TextValidationType="int" redcap:FieldNote="Please enter the previous Center&#039;s ID. If you are unsure of it, you can reference &lt;a target=&quot;_blank&quot; &lt;a style=&quot;font-size: 100%;&quot; href=&quot;https://flywheel.naccdata.org/#/projects/65e1164c0fc1dd593aee4206/information?viewerParams=app%3D6630a5a1ea5c72e0e7fe216c;container%3D65e1164c0fc1dd593aee4206;  &quot;&gt; this list of current ADCIDs &lt;/a&gt; in the NACC Data Platform." redcap:RequiredField="y" redcap:BranchingLogic="[prevenrl] = &#039;1&#039;">
+		<Question><TranslatedText>6a. At which ADRC was this participant previously enrolled? </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;6a. At which ADRC was this participant previously enrolled? &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="oldptid" Name="oldptid" DataType="text" Length="999" redcap:Variable="oldptid" redcap:FieldType="text" redcap:BranchingLogic="[prevenrl] = &#039;1&#039;">
+		<Question><TranslatedText>6b. Please provide the previous PTID (if known):
+
+PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally. If unknown, leave blank.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;6b. Please provide the previous PTID (if known):&lt;br&gt;&lt;br&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PTID (may be referred to as Participant ID or local ID) is the ADRC-managed participant ID. Formats vary by each center; this is the ID used for UDS (uniform dataset) identification internally. If unknown, leave blank.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_same_center_calc_prev" Name="loc_same_center_calc_prev" DataType="float" Length="999" redcap:Variable="loc_same_center_calc_prev" redcap:FieldType="calc" redcap:Calculation="[adcid]-[oldadcid]" redcap:BranchingLogic="[prevenrl] = &#039;1&#039;" redcap:FieldAnnotation="@HIDDEN @HIDDEN-PDF">
+		<Question><TranslatedText>Same center?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_same_prev_adrc_error" Name="loc_same_prev_adrc_error" DataType="text" Length="1" redcap:Variable="loc_same_prev_adrc_error" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[loc_same_center_calc_prev] = &#039;0&#039;" redcap:CustomAlignment="LV" redcap:FieldAnnotation="@READONLY">
+		<Question><TranslatedText>   It looks like you have entered your own ADRC. Please change your response to indicate the participant&#039;s previous ADRC.     </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.9717%; background-color: #f8cac6; border-color: #BA372A;&quot; border=&quot;1&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 99.9151%;&quot;&gt;It looks like you have entered your own ADRC. Please change your response to indicate the participant&#039;s previous ADRC.&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_same_prev_adrc_error.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_naccid" Name="loc_naccid" DataType="text" Length="999" redcap:Variable="loc_naccid" redcap:FieldType="descriptive" redcap:BranchingLogic="[enrltype]=&#039;2&#039;">
+		<Question><TranslatedText>   7. Is the NACCID for this participant known?  {naccidknwn:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 2.832861%;&quot;&gt;&lt;col style=&quot;width: 63.597734%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;7.&lt;/td&gt; &lt;td&gt;Is the NACCID for this participant known? &lt;/td&gt; &lt;td&gt;{naccidknwn:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="naccidknwn" Name="naccidknwn" DataType="text" Length="1" redcap:Variable="naccidknwn" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[enrltype]=&#039;2&#039;">
+		<Question><TranslatedText>7. Is the NACCID for this participant known? </TranslatedText></Question>
+		<CodeListRef CodeListOID="naccidknwn.choices"/>
+	</ItemDef>
+	<ItemDef OID="loc_naccid_2" Name="loc_naccid_2" DataType="text" Length="999" redcap:Variable="loc_naccid_2" redcap:FieldType="descriptive" redcap:BranchingLogic="[naccidknwn] = &#039;1&#039;">
+		<Question><TranslatedText>   7a. Please provide the NACCID:
+
+All NACCIDs begin with &quot;NACC&quot; and are 10 characters long {naccid:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #c2e0f4;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 2.832861%;&quot;&gt;&lt;col style=&quot;width: 63.597734%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;7a.&lt;/td&gt; &lt;td&gt;Please provide the NACCID:&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;All NACCIDs begin with &quot;NACC&quot; and are 10 characters long&lt;/em&gt;&lt;/span&gt;&lt;/td&gt; &lt;td&gt;{naccid:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="naccid" Name="naccid" DataType="text" Length="999" redcap:Variable="naccid" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[naccidknwn] = &#039;1&#039;" redcap:FieldAnnotation="@CHARLIMIT=10">
+		<Question><TranslatedText>7a. Please provide the NACCID:
+
+All NACCIDs begin with &quot;NACC&quot; and are 10 characters long</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;7a. Please provide the NACCID:&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;em&gt;All NACCIDs begin with &quot;NACC&quot; and are 10 characters long&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_ptidconf" Name="loc_ptidconf" DataType="text" Length="999" redcap:Variable="loc_ptidconf" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   8. Please re-enter the participant PTID before completing the form:  {ptidconf:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.949002%; border-width: 1px; background-color: #ced4d9;&quot; border=&quot;1&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 4.107649%;&quot;&gt;&lt;col style=&quot;width: 62.464589%;&quot;&gt;&lt;col style=&quot;width: 33.286119%;&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;8.&lt;/td&gt; &lt;td&gt;Please re-enter the participant PTID before completing the form: &lt;/td&gt; &lt;td&gt;{ptidconf:icons}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ptidconf" Name="ptidconf" DataType="text" Length="999" redcap:Variable="ptidconf" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>8. Please re-enter the participant PTID before completing the form: </TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="loc_ptid_error" Name="loc_ptid_error" DataType="text" Length="1" redcap:Variable="loc_ptid_error" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="([ptid]&lt;&gt;&#039;&#039; and [ptidconf]&lt;&gt;&#039;&#039;) and ([ptid]&lt;&gt;[ptidconf])" redcap:CustomAlignment="LV" redcap:FieldAnnotation="@READONLY">
+		<Question><TranslatedText>   The PTID you entered does not match the PTID at the beginning of this form. Please double-check the entries and ensure that the PTIDs match to submit this form.      </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 99.9717%; background-color: #f8cac6; border-color: #BA372A;&quot; border=&quot;1&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 99.9151%;&quot;&gt;The PTID you entered does not match the PTID at the beginning of this form. Please double-check the entries and ensure that the PTIDs match to submit this form. &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="loc_ptid_error.choices"/>
+	</ItemDef>
+	<ItemDef OID="footer_enrl" Name="footer_enrl" DataType="text" Length="999" redcap:Variable="footer_enrl" redcap:FieldType="descriptive">
+		<Question><TranslatedText>NATIONAL ALZHEIMER&#039;S COORDINATING CENTER | naccmail@uw.edu | naccdata.org
+NACC Participant Enrollment/Transfer Form (Version 1.0, January 2025) </TranslatedText><redcap:FormattedTranslatedText>&lt;p&gt;&lt;span style=&quot;color: #3598db;&quot;&gt;NATIONAL ALZHEIMER&#039;S COORDINATING CENTER | naccmail@uw.edu |&lt;/span&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;a href=&quot;https://naccdata.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;naccdata.org&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong&gt;NACC Participant Enrollment/Transfer Form &lt;span style=&quot;font-weight: normal;&quot;&gt;(Version 1.0, January 2025)&lt;/span&gt; &lt;span style=&quot;color: red;&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="participant_enrollmenttransfer_form_complete" Name="participant_enrollmenttransfer_form_complete" DataType="text" Length="1" redcap:Variable="participant_enrollmenttransfer_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="participant_enrollmenttransfer_form_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="formver.choices" Name="formver" DataType="text" redcap:Variable="formver">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="enrltype.choices" Name="enrltype" DataType="text" redcap:Variable="enrltype">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Assign NACCID for first-time participants</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Transfer a participant to your site</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="enrlbirthmo.choices" Name="enrlbirthmo" DataType="text" redcap:Variable="enrlbirthmo">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 - January</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 - February</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 - March</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4 - April</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>5 - May</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>6 - June</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>7 - July</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>8 - August</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>9 - September</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>10 - October</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>11 - November</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>12 - December</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="enrleduc.choices" Name="enrleduc" DataType="text" redcap:Variable="enrleduc">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>0</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>6</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>7</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>8</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>9</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>10</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>11</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>12</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="13"><Decode><TranslatedText>13</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="14"><Decode><TranslatedText>14</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="15"><Decode><TranslatedText>15</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="16"><Decode><TranslatedText>16</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="17"><Decode><TranslatedText>17</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="18"><Decode><TranslatedText>18</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="19"><Decode><TranslatedText>19</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="20"><Decode><TranslatedText>20</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="21"><Decode><TranslatedText>21</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="22"><Decode><TranslatedText>22</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="23"><Decode><TranslatedText>23</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="24"><Decode><TranslatedText>24</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="25"><Decode><TranslatedText>25</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="26"><Decode><TranslatedText>26</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="27"><Decode><TranslatedText>27</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="28"><Decode><TranslatedText>28</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="29"><Decode><TranslatedText>29</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="30"><Decode><TranslatedText>30</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="31"><Decode><TranslatedText>31</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="32"><Decode><TranslatedText>32</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="33"><Decode><TranslatedText>33</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="34"><Decode><TranslatedText>34</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="35"><Decode><TranslatedText>35</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="36"><Decode><TranslatedText>36</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___1.choices" Name="loc_enrl_gender___1" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___2.choices" Name="loc_enrl_gender___2" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___3.choices" Name="loc_enrl_gender___3" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___4.choices" Name="loc_enrl_gender___4" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___5.choices" Name="loc_enrl_gender___5" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___6.choices" Name="loc_enrl_gender___6" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___7.choices" Name="loc_enrl_gender___7" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___8.choices" Name="loc_enrl_gender___8" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrl_gender___9.choices" Name="loc_enrl_gender___9" DataType="boolean" redcap:Variable="loc_enrl_gender" redcap:CheckboxChoices="1, Man | 2, Woman | 3, Transgender man | 4, Transgender woman | 5, Non-binary/genderqueer | 6, Two-Spirit | 7, Use a different term | 8, Don&#039;t know | 9, Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="guidavail.choices" Name="guidavail" DataType="text" redcap:Variable="guidavail">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prevenrl.choices" Name="prevenrl" DataType="text" redcap:Variable="prevenrl">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_enrltype_prevenrl_no_match.choices" Name="loc_enrltype_prevenrl_no_match" DataType="text" redcap:Variable="loc_enrltype_prevenrl_no_match">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText></TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_same_prev_adrc_error.choices" Name="loc_same_prev_adrc_error" DataType="text" redcap:Variable="loc_same_prev_adrc_error">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText></TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="naccidknwn.choices" Name="naccidknwn" DataType="text" redcap:Variable="naccidknwn">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="loc_ptid_error.choices" Name="loc_ptid_error" DataType="text" redcap:Variable="loc_ptid_error">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText></TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="participant_enrollmenttransfer_form_complete.choices" Name="participant_enrollmenttransfer_form_complete" DataType="text" redcap:Variable="participant_enrollmenttransfer_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
